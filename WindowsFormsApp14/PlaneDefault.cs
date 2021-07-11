@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp14
 {
-    public class Ray
+    public class PlaneDefault
     {
-
+        public double A;
+        public double B;
+        public double C;
+        public double D;
     }
 }

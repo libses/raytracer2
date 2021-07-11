@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp14
 {
-    public class Surface
+    public class Camera
     {
-        public double Reflectiveness;
+        public Vector Position;
+        public Vector Direction;
     }
 }

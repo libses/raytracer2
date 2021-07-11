@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp14
 {
-    public class Surface
+    public class Scene
     {
-        public double Reflectiveness;
+        public List<Surface> Surfaces = new List<Surface>();
+        public Camera Camera;
+
     }
 }

@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp14
 {
-    public class Wall : Surface
+    public class Wall
     {
+        public Surface Surface;
     }
 }

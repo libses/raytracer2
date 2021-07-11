@@ -8,6 +8,6 @@ namespace WindowsFormsApp14
 {
     public class LightPanel : Wall
     {
-
+        public double lightAmount { get; set; }
     }
 }

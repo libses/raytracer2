@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp14
 {
-    public class Surface
+    public class LineParam
     {
-        public double Reflectiveness;
+        public Vector Direction { get; set; }
+        public Vector Point { get; set; }
     }
 }

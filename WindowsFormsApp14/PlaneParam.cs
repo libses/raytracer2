@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp14
 {
-    public class Surface
+    public class PlaneParam
     {
-        public double Reflectiveness;
+        public Vector u;
+        public Vector v;
+        public Vector Point;
     }
 }
