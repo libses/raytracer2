@@ -10,5 +10,15 @@ namespace WindowsFormsApp14
     {
         public Vector Position;
         public Vector Direction;
+        public double FOV;
+        public int XRes;
+        public int YRes;
+        public Color[,] matrix;
+        public Camera(int xRes, int yRes)
+        {
+            matrix = new Color[xRes, yRes];
+            XRes = xRes;
+            YRes = yRes;
+        }
     }
 }

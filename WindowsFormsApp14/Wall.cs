@@ -6,8 +6,15 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp14
 {
-    public class Wall
+    public class Wall : ISurface
     {
-        public Surface Surface;
+        public Vector Reflect(Vector v)
+        {
+            throw new NotImplementedException();
+        }
+        public Color Color { get; set; }
+        public double Reflectiveness { get; set; }
+
+        public Polygon Polygon;
     }
 }

@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp14
 {
-    public interface ISurface
+    public class Color
     {
-        Vector Reflect(Vector v);
-        Color Color { get; set; }
-        double Reflectiveness { get; set; }
+        public int R;
+        public int G;
+        public int B;
     }
 }

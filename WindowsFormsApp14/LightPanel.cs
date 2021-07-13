@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp14
 {
-    public class LightPanel : Wall
+    public class LightPanel
     {
         public double lightAmount { get; set; }
+        public Polygon Polygon;
+        public LightPanel(Polygon polygon, double LA)
+        {
+            lightAmount = LA;
+            Polygon = polygon;
+        }
     }
 }

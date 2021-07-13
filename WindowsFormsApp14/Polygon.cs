@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp14
 {
-    public interface ISurface
+    public class Polygon
     {
-        Vector Reflect(Vector v);
-        Color Color { get; set; }
-        double Reflectiveness { get; set; }
+        public List<Vector> Points;
+        public PlaneDefault PlaneDefault;
+        public PlaneParam PlaneParam;
     }
 }

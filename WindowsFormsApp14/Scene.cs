@@ -8,8 +8,8 @@ namespace WindowsFormsApp14
 {
     public class Scene
     {
-        public List<Surface> Surfaces = new List<Surface>();
+        public List<ISurface> Surfaces = new List<ISurface>();
         public Camera Camera;
-
+        public List<LightPanel> LightPanels = new List<LightPanel>();
     }
 }
