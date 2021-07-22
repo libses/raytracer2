@@ -11,5 +11,6 @@ namespace WindowsFormsApp14
         Vector Reflect(Vector v);
         Color Color { get; set; }
         double Reflectiveness { get; set; }
+        double GetT(LineParam line);
     }
 }

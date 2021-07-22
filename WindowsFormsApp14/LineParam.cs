@@ -10,7 +10,8 @@ namespace WindowsFormsApp14
     {
         public Vector Direction { get; set; }
         public Vector Point { get; set; }
-        
+
+        public LineParam() { }
         public LineParam(Vector v1, Vector v2)
         {
             Direction = (Vector)(v2 - v1);

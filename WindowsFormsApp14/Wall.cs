@@ -16,5 +16,9 @@ namespace WindowsFormsApp14
         public double Reflectiveness { get; set; }
 
         public Polygon Polygon;
+        public double GetT(LineParam line) 
+        {
+            return line.WithPlaneT(Polygon.PlaneDefault);
+        }
     }
 }
