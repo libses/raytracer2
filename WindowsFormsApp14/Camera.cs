@@ -26,6 +26,8 @@ namespace WindowsFormsApp14
                     var z = Math.Cos(a);
                     var v = new Vector(x,y,z);
                     var line = new LineParam(new Vector(0, 0, 0), v);
+                    var ray = new Ray(line);
+
                 }
             }
             throw new NotImplementedException();

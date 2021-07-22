@@ -10,6 +10,5 @@ namespace WindowsFormsApp14
     {
         public List<Vector> Points;
         public PlaneDefault PlaneDefault;
-        public PlaneParam PlaneParam;
     }
 }

@@ -20,5 +20,10 @@ namespace WindowsFormsApp14
         {
             throw new NotImplementedException();
         }
+        public double WithPlaneT(PlaneDefault plane)
+        {
+            return -((plane.A * Point.X + plane.B * Point.Y + plane.C * Point.Z + plane.D) /
+                     (plane.A * Direction.X + plane.B * Direction.Y + plane.C * Direction.Z));
+        }
     }
 }

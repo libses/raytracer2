@@ -45,5 +45,21 @@ namespace WindowsFormsApp14
             var bM = b.Transpose();
             return (aM * bM)[0,0];
         }
+        public static Vector operator *(double n, Vector v)
+        {
+            return new Vector(v.X * n, v.Y * n, v.Z * n);
+        }
+        public static Vector operator *(Vector v, double n)
+        {
+            return new Vector(v.X * n, v.Y * n, v.Z * n);
+        }
+        public static Vector operator -(Vector p, Vector v)
+        {
+            return new Vector(p.X - v.X, p.Y - v.Y, p.Z - v.Z);
+        }
+        public static Vector operator +(Vector p, Vector v)
+        {
+            return new Vector(p.X + v.X, p.Y + v.Y, p.Z + v.Z);
+        }
     }
 }

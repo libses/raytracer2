@@ -10,7 +10,7 @@ namespace WindowsFormsApp14
     {
         public Vector Reflect(Vector v)
         {
-            throw new NotImplementedException();
+            return Polygon.PlaneDefault.Reflect(v);
         }
         public Color Color { get; set; }
         public double Reflectiveness { get; set; }
